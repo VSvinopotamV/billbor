@@ -1,0 +1,235 @@
+<style>
+	/*вот так ставятся комментарии внутри style*/
+	.header{height: 75px;width: auto; background-color: #9db1cc}
+	.charts-conatiner{ width: 50%; background-color: white; margin-left: auto; margin-right: auto}
+	.header-center{height: 95%; width: 50%; background-color: white; margin-left: auto; margin-right: auto; display: flex;}
+	.charts-sort{height: 40; width: 100%; background-color: white; padding-top: 25px}
+	.charts-up{height: 100; width: 100%; background-color: #60D6A9; margin-top: 10px; display: flex;; border-radius: 5px}
+	.charts-new{height: 100; width: 100%; background-color: #FFDA73;margin-top: 10px; border-radius: 5px; display: flex;}
+	.charts-down{height: 100; width: 100%; background-color: #FE7276;margin-top: 10px; border-radius: 5px; display: flex;}
+	.box-logo{height: 100%; width: 20%; background-color: #9db1cc}
+	.box-links{height: 57%; width: 65%; background-color: #9db1cc; padding-top: 30px}
+	.box-buttons{height: 57%; width: 15%; background-color: #9db1cc;padding-top: 30px}
+	.charts-rank{height: 100%; width: 10%; background-color: ;}
+	.charts-info{height: 100%; width: 60%; background-color: ; }
+	.charts-button{height: 100%; width: 20%; background-color: ; }
+	.charts-img{height: 100%; width: 10%; background-color: ;}
+	.img{height: 80%; margin-left: 10px; margin-top: 10px}
+	.logo{height: 50%; margin-top: 15px}
+	.boxlinkswhite{margin-left: 25px; color: white; font-weight:  20px}
+	.boxlinksr{margin-left: 25px; color: red; font-weight:  20px}
+	.boxlinksy{margin-left: 25px; color: yellow; width: 20px}
+	.p-button{background-color: purple; color:white; border:none; height: 25px; width: 100px; border-radius: 5px}
+	.g-button{background-color: green; color:white; border:none; height: 25px; width: 100px; border-radius: 3px; margin-top: 15px}
+	.peak-button{background-color: green; color:white; border:none; height: 25px; width: 100px; border-radius: 5px}
+	.b-button{background-color: blue; color:white; border:none; height: 25px; width: 135px; border-radius: 3px; margin-top: 15px}
+	.r-button{background-color: red; color:white; border:none; height: 25px; width: 100px; border-radius: 5px}
+	.o-button{background-color: orange; color:white; border:none; height: 25px; width: 100px; border-radius: 5px}
+	.numbers{margin-left: 40%;}
+	.up{margin-left: 30%; color: green; font-weight: 900}
+	.new{margin-left: 30%; color: orange; font-weight: 900}
+	.down{margin-left: 30%; color: red; font-weight: 900}
+	.names{font-weight: 900; margin-left: 50px; color: #7b96ba}
+	.names2{ margin-left: 50px}
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center" >
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img class="logo" src="Billboard-white.svg">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a class="boxlinkswhite" href="">CHARTS</a>
+			<a class="boxlinkswhite" href="">NEWS</a>
+			<a class="boxlinksr" href="">VIDEO</a>
+			<a class="boxlinksy" href="">PHOTOS</a>
+			
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button style="margin-left: 25px" class="p-button">subscribe</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-conatiner" >
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-sort">
+		<button class="r-button">THIS WEEK</button>
+		<button class="o-button">LAST WEEK</button>
+		<button class="peak-button">PEAK</button>
+		<button class="p-button">DURATION</button>
+		
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">1</h2>
+			<p class="up">Up</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names"> SICKO MODE</p>
+			<p class="names2">Travis Scott ft. Drake</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="b-button">ВОСПРОИЗВЕСТИ</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="sickomode.jpg">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">2</h2>
+			<p class="new">New</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">OUT WEST</p>
+			<p class="names2">Young Thug, JACKBOYS</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="g-button">КУПИТЬ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="outwest.jpg">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">3</h2>
+			<p class="new">New</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">Losing Interest</p>
+			<p class="names2">itssvd (ft. Shiloh Dynasty)</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="g-button">КУПИТЬ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="39388018_800_800.jpg">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">4</h2>
+			<p class="up">Up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">Колхозник</p>
+			<p class="names2">Mnogoznaal</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="b-button">ВОСПРОИЗВЕСТИ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="kolhoz.jpg">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">5</h2>
+			<p class="down">Down</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">Murder On My Mind</p>
+			<p class="names2">YNW Melly</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="g-button">КУПИТЬ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="YNW-Melly-Murder-On-My-Mind.jpg">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">6</h2>
+			<p class="new">New</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">Space Cadet</p>
+			<p class="names2">Metro Boomin ft. Gunna </p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="b-button">ВОСПРОИЗВЕСТИ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="172836-space-cadet.jpg">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="numbers">7</h2>
+			<p class="up">Up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p class="names">ЗЛОЙ</p>
+			<p class="names2">SLAVA MARLOW & ЭЛДЖЕЙ</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="b-button">ВОСПРОИЗВЕСТИ</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="img" src="i.jpg">
+		</div>		
+	</div>
+</div>
+<!--  -->
